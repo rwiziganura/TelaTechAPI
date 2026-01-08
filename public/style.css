@@ -1,0 +1,16 @@
+:root{--bg:#f7f9fb;--card:#fff;--accent:#2b6cb0}
+*{box-sizing:border-box;font-family:Segoe UI,Roboto,Arial}
+body{margin:0;background:var(--bg);color:#111}
+main{max-width:980px;margin:32px auto;padding:20px}
+h1{margin:0 0 16px}
+#form-section, #list-section{background:var(--card);padding:16px;border-radius:8px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+label{display:block;margin:8px 0}
+input,select{width:100%;padding:8px;border:1px solid #ddd;border-radius:4px}
+.buttons{display:flex;gap:8px;margin-top:12px}
+button{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+button#cancel{background:#666}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+td.actions{white-space:nowrap}
+.btn-small{background:transparent;color:var(--accent);border:1px solid var(--accent);padding:4px 8px;border-radius:4px;cursor:pointer}
+#message{margin:8px 0;color:#0a0}
